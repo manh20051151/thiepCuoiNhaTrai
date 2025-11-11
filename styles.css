@@ -1,0 +1,3140 @@
+@font-face {
+  font-family: "VVZOSGhVGFMSdGY";
+  src: url("https://w.ladicdn.com/6322a62f2dad980013bb5005/uvnhoatay1-20250703082157-fl9kv.ttf")
+    format("truetype");
+}
+@font-face {
+  font-family: "TGyYSSZWdbGFyLnRZg";
+  src: url("https://w.ladicdn.com/6322a62f2dad980013bb5005/lora-regular-20250703082157-0hsrw.ttf")
+    format("truetype");
+}
+@font-face {
+  font-family: "TGyYSTZWpQmsZCdGY";
+  src: url("https://w.ladicdn.com/6322a62f2dad980013bb5005/lora-semibold-20250703082157-af2ff.ttf")
+    format("truetype");
+}
+@font-face {
+  font-family: "TESQSSRUdVTEFSLlRURg";
+  src: url("https://w.ladicdn.com/6322a62f2dad980013bb5005/lora-regular-20250420044709-6d4hn.ttf")
+    format("truetype");
+}
+@font-face {
+  font-family: "TESQSTRUJQkMRCUVEY";
+  src: url("https://w.ladicdn.com/6322a62f2dad980013bb5005/lora-semibold-20250421105928-zwl-g.ttf")
+    format("truetype");
+}
+@font-face {
+  font-family: "MUZUViWSVAtSEFTVEVHSSPVEY";
+  src: url("https://w.ladicdn.com/6322a62f2dad980013bb5005/1ftv-vip-hastegi-20250323075635-ymzdv.otf");
+}
+@font-face {
+  font-family: "IzlTbGlkZTAzIEljaWVsIEZvcnQgRmbmRyeSBSaWZIFJlZVsYXIudHRm";
+  src: url("https://w.ladicdn.com/6322a62f2dad980013bb5005/9slide03-iciel-fort-foundry-rift-regular-20240316103314-2vwzb.ttf")
+    format("truetype");
+}
+@font-face {
+  font-family: "MUZUViWSVAtQXJjaXReWEtQmVnYXRyaSvdGY";
+  src: url("https://w.ladicdn.com/6322a62f2dad980013bb5005/1ftv-vip-arcittya-begatri-20250607180534-0x81e.otf");
+}
+@font-face {
+  font-family: "UZOLUJldGFsaXNhLmZg";
+  src: url("https://w.ladicdn.com/6322a62f2dad980013bb5005/svn-betalisa-20240504033342-r1kle.otf");
+}
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+/* Auto Scale Wrapper */
+.ladi-wraper {
+  transform-origin: top center;
+  transition: transform 0.3s ease;
+  display: block;
+  position: relative;
+  margin: 0 auto;
+}
+
+/* Fix popup không bị scale - ƯU TIÊN CAO NHẤT */
+#SECTION_POPUP {
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100vw !important;
+  height: 100vh !important;
+  transform: none !important;
+  z-index: 999999 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+#SECTION_POPUP .ladi-container {
+  transform: none !important;
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+/* Fix input cho iOS - tránh auto zoom */
+input, textarea, select {
+  font-size: 16px !important;
+}
+
+/* Reset & Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* :root {
+    --primary-color: #d4a574;
+    --secondary-color: #f5e6d3;
+    --text-dark: #333;
+    --text-light: #666;
+    --white: #ffffff;
+    --shadow: rgba(0, 0, 0, 0.1);
+    --transition: all 0.3s ease;
+} */
+
+/* body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: var(--text-dark);
+    overflow-x: hidden;
+} */
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  max-width: 100vw;
+}
+
+body {
+  overflow-x: hidden;
+  width: 100vw;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+/* img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+} */
+
+#SECTION1 {
+    height: 674.1px;
+}
+.ladi-section {
+    margin: 0 auto;
+    position: relative;
+}
+
+.ladi-section .ladi-section-background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    overflow: hidden;
+}
+
+.ladi-container {
+    position: relative;
+    margin: 0 auto;
+    height: 100%;
+    width: 450px;
+    max-width: 100%;
+}
+
+
+
+#BOX1 {
+    width: 450px;
+    height: 680.6px;
+    top: -6.5px;
+    left: 0px;
+}
+
+.ladi-element {
+    position: absolute;
+}
+
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, button, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, input, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, select, small, span, strike, strong, sub, summary, sup, table, tbody, td, textarea, tfoot, th, thead, time, tr, tt, u, ul, var, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+* {
+    -webkit-tap-highlight-color: #fff0;
+}
+#BOX1 > .ladi-box, #BOX2 > .ladi-box, #BOX3 > .ladi-box, #BOX6 > .ladi-box, #BOX7 > .ladi-box, #BOX8 > .ladi-box, #BOX14 > .ladi-box, #BOX15 > .ladi-box, #BOX16 > .ladi-box, #BOX17 > .ladi-box, #BOX18 > .ladi-box, #BOX22 > .ladi-box, #BOX28 > .ladi-box, #BOX21 > .ladi-box, #BOX24 > .ladi-box, #BOX25 > .ladi-box {
+    border-radius: 0px;
+}
+
+#HEADLINE3.ladi-animation > .ladi-headline, #GROUP39.ladi-animation > .ladi-group, #HEADLINE5.ladi-animation > .ladi-headline, #HEADLINE6.ladi-animation > .ladi-headline, #HEADLINE7.ladi-animation > .ladi-headline, #HEADLINE8.ladi-animation > .ladi-headline, #HEADLINE9.ladi-animation > .ladi-headline, #HEADLINE11.ladi-animation > .ladi-headline, #HEADLINE12.ladi-animation > .ladi-headline, #HEADLINE14.ladi-animation > .ladi-headline, #HEADLINE115.ladi-animation > .ladi-headline, #GROUP7.ladi-animation > .ladi-group, #GROUP8.ladi-animation > .ladi-group, #HEADLINE21.ladi-animation > .ladi-headline, #HEADLINE22.ladi-animation > .ladi-headline, #HEADLINE23.ladi-animation > .ladi-headline, #HEADLINE24.ladi-animation > .ladi-headline, #HEADLINE25.ladi-animation > .ladi-headline, #GROUP38.ladi-animation > .ladi-group, #IMAGE13.ladi-animation > .ladi-image, #IMAGE14.ladi-animation > .ladi-image, #IMAGE15.ladi-animation > .ladi-image, #IMAGE16.ladi-animation > .ladi-image, #GROUP16.ladi-animation > .ladi-group, #IMAGE17.ladi-animation > .ladi-image, #IMAGE18.ladi-animation > .ladi-image, #IMAGE19.ladi-animation > .ladi-image, #GROUP22.ladi-animation > .ladi-group, #HEADLINE97.ladi-animation > .ladi-headline, #HEADLINE113.ladi-animation > .ladi-headline, #HEADLINE122.ladi-animation > .ladi-headline, #HEADLINE123.ladi-animation > .ladi-headline, #FORM2.ladi-animation > .ladi-form, #BUTTON2.ladi-animation > .ladi-button, #BUTTON3.ladi-animation > .ladi-button, #HEADLINE107.ladi-animation > .ladi-headline, #HEADLINE111.ladi-animation > .ladi-headline, #HEADLINE112.ladi-animation > .ladi-headline, #GROUP36.ladi-animation > .ladi-group, #GROUP37.ladi-animation > .ladi-group {
+    animation-name: fadeInUp;
+    animation-delay: 1s;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+
+
+#BOX1 > .ladi-box {
+    background-image: url(https://i.pinimg.com/1200x/7c/75/08/7c75082137b2a6cc1e9985121d330423.jpg);
+    background-size: cover;
+    background-origin: content-box;
+    background-position: 50% 50%;
+    background-repeat: repeat;
+    background-attachment: scroll;
+}
+
+.ladi-box {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.ladi-transition {
+    transition: all 150ms 
+linear 0s;
+}
+
+#BOX2 {
+    width: 450px;
+    height: 423.6px;
+    top: 250.5px;
+    left: 0px;
+}
+
+#BOX2 > .ladi-box, #BOX28 > .ladi-box {
+    -webkit-background-clip: initial;
+}
+#BOX2 > .ladi-box {
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(2, 2, 2, 0.6));
+    background-color: initial;
+    background-size: initial;
+    background-origin: initial;
+    background-position: initial;
+    background-repeat: initial;
+    background-attachment: initial;
+}
+#HEADLINE3 {
+    top: 446.5px;
+    left: 5px;
+}
+#HEADLINE3, #PARAGRAPH1 {
+    width: 450px;
+}
+
+#HEADLINE3 > .ladi-headline {
+    font-family: VVZOSGhVGFMSdGY;
+    font-size: 76px;
+    line-height: 1.6;
+    color: rgb(255, 255, 255);
+    letter-spacing: 0px;
+    text-align: center;
+}
+
+.ladi-headline {
+    width: 100%;
+    display: inline-block;
+    word-break: break-word;
+    background-size: cover;
+    background-position: center center;
+}
+
+#GROUP39 {
+    width: 256px;
+    height: 334px;
+    top: 419.1px;
+    left: 82px;
+    
+}
+
+#HEADLINE114 {
+    width: 133px;
+    top: 0px;
+    left: 77px;
+}
+
+#HEADLINE114 > .ladi-headline {
+    font-family: MUZUViWSVAtQXJjaXReWEtQmVnYXRyaSvdGY;
+    font-size: 208.76px;
+    line-height: 1.6;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    opacity: 0.25;
+}
+
+#HEADLINE4 {
+    width: 288px;
+    top: 137.9px;
+    left: 0px;
+}
+
+#HEADLINE4 > .ladi-headline {
+    font-family: TGyYSSZWdbGFyLnRZg;
+    font-size: 22px;
+    line-height: 1.6;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    text-align: center;
+}
+
+
+#SECTION2 {
+    height: 1250.1px;
+}
+
+#IMAGE32 {
+    width: 450px;
+    height: 162.001px;
+    top: 810.9px;
+    left: 0px;
+}
+
+.ladi-image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#IMAGE32 > .ladi-image > .ladi-image-background, #IMAGE6 > .ladi-image > .ladi-image-background, #IMAGE22 > .ladi-image > .ladi-image-background, #IMAGE26 > .ladi-image > .ladi-image-background, #IMAGE25 > .ladi-image > .ladi-image-background {
+    background-image: url(https://w.ladicdn.com/s750x950/6322a62f2dad980013bb5005/icon-thiep-huyenpsd_0000_clear-white-plaster-texture-pattern-copy-14-20250703084107-2wpug.png);
+}
+
+#IMAGE6 {
+    top: 224.899px;
+    left: 0px;
+}
+
+#IMAGE32 > .ladi-image > .ladi-image-background, #IMAGE6, #IMAGE6 > .ladi-image > .ladi-image-background {
+    width: 450px;
+    height: 630.001px;
+}
+#IMAGE5, #IMAGE5 > .ladi-image > .ladi-image-background {
+    width: 450px;
+    height: 234.899px;
+}
+
+#IMAGE5 > .ladi-image > .ladi-image-background {
+    background-image: url(https://w.ladicdn.com/s750x550/6322a62f2dad980013bb5005/thiep-huyen-copy_0003_thiep-huyenn-copy-3-20250703084042-v6pcm.png);
+}
+
+#IMAGE5, #IMAGE5 > .ladi-image > .ladi-image-background {
+    width: 450px;
+    height: 234.899px;
+}
+#HEADLINE5 {
+    top: 82.4px;
+    left: 2px;
+}
+
+#HEADLINE5, #HEADLINE6, #HEADLINE7, #HEADLINE8, #HEADLINE21, #HEADLINE23, #HEADLINE24, #HEADLINE25, #HEADLINE28 {
+    width: 450px;
+}
+
+#HEADLINE5 > .ladi-headline {
+    font-family: TGyYSTZWpQmsZCdGY;
+    font-size: 20px;
+    line-height: 1.6;
+    color: rgb(77, 51, 5);
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#LINE1 {
+    height: 33px;
+    top: 149.4px;
+    left: 202px;
+}
+
+#LINE1 > .ladi-line, #LINE4 > .ladi-line, #LINE5 > .ladi-line, #LINE6 > .ladi-line {
+    height: 100%;
+    padding: 0px 8px;
+}
+.ladi-line {
+    position: relative;
+}
+
+#LINE1 > .ladi-line > .ladi-line-container, #LINE4 > .ladi-line > .ladi-line-container, #LINE5 > .ladi-line > .ladi-line-container, #LINE6 > .ladi-line > .ladi-line-container {
+    border-top: 0px !important;
+    border-right: 2px solid rgb(134, 105, 55);
+    border-bottom: 2px solid rgb(134, 105, 55);
+    border-left: 2px solid rgb(134, 105, 55);
+}
+
+.ladi-line .ladi-line-container {
+    border-bottom: 0 !important;
+    border-right: 0 !important;
+    width: 100%;
+    height: 100%;
+}
+
+#HEADLINE7 {
+    top: 186.899px;
+    left: 2px;
+}
+#HEADLINE7 > .ladi-headline {
+    font-family: TESQSSRUdVTEFSLlRURg;
+    font-size: 16px;
+    line-height: 1.6;
+    color: rgb(77, 51, 5);
+    text-align: center;
+}
+
+#BOX3 {
+    top: 296.4px;
+    left: 231px;
+}
+
+#BOX3, #BOX6 {
+    width: 205px;
+    height: 336px;
+}
+#BOX3.ladi-animation > .ladi-box, #HEADLINE10.ladi-animation > .ladi-headline, #GROUP31.ladi-animation > .ladi-group, #GROUP18.ladi-animation > .ladi-group, #GROUP19.ladi-animation > .ladi-group, #GROUP20.ladi-animation > .ladi-group, #GROUP21.ladi-animation > .ladi-group, #BOX11.ladi-animation > .ladi-box, #BOX23.ladi-animation > .ladi-box {
+    animation-name: fadeInLeft;
+    animation-delay: 1s;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+
+#BOX3 > .ladi-box, #BOX6 > .ladi-box {
+    box-shadow: rgb(96, 96, 96) 0px 4px 10px -5px;
+}
+
+#BOX3 > .ladi-box {
+    background-image: url(https://i.pinimg.com/736x/e1/31/86/e13186f3b4a8498a06e6997aa32a8821.jpg);
+    background-size: 130%; 
+    background-origin: content-box;
+    background-position: 50% 40%;
+    background-repeat: repeat;
+    background-attachment: scroll;
+}
+
+#GROUP1 {
+    width: 234px;
+    height: 130.499px;
+    top: 283.4px;
+    left: -12px;
+}
+#GROUP1.ladi-animation > .ladi-group, #HEADLINE13.ladi-animation > .ladi-headline, #BOX6.ladi-animation > .ladi-box, #GROUP11.ladi-animation > .ladi-group, #GROUP12.ladi-animation > .ladi-group, #GROUP13.ladi-animation > .ladi-group, #GROUP14.ladi-animation > .ladi-group {
+    animation-name: fadeInRight;
+    animation-delay: 1s;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+.ladi-group {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+#HEADLINE9, #HEADLINE12 {
+    width: 266px;
+}
+#IMAGE32 > .ladi-image > .ladi-image-background, #IMAGE6 > .ladi-image > .ladi-image-background, #IMAGE5, #IMAGE5 > .ladi-image > .ladi-image-background, #HEADLINE9, #HEADLINE12, #IMAGE7 > .ladi-image > .ladi-image-background, #HEADLINE18, #HEADLINE15, #IMAGE8 > .ladi-image > .ladi-image-background, #IMAGE9 > .ladi-image > .ladi-image-background, #IMAGE30 > .ladi-image > .ladi-image-background, #IMAGE31, #IMAGE31 > .ladi-image > .ladi-image-background, #BOX8, #IMAGE11 > .ladi-image > .ladi-image-background, #IMAGE22 > .ladi-image > .ladi-image-background, #IMAGE12 > .ladi-image > .ladi-image-background, #IMAGE13 > .ladi-image > .ladi-image-background, #HEADLINE70, #HEADLINE73, #HEADLINE76, #HEADLINE79, #IMAGE14 > .ladi-image > .ladi-image-background, #IMAGE15 > .ladi-image > .ladi-image-background, #IMAGE16 > .ladi-image > .ladi-image-background, #IMAGE17 > .ladi-image > .ladi-image-background, #IMAGE18 > .ladi-image > .ladi-image-background, #IMAGE19 > .ladi-image > .ladi-image-background, #IMAGE20 > .ladi-image > .ladi-image-background, #IMAGE21 > .ladi-image > .ladi-image-background, #BOX9, #IMAGE26 > .ladi-image > .ladi-image-background, #IMAGE25 > .ladi-image > .ladi-image-background, #IMAGE23 > .ladi-image > .ladi-image-background, #FORM_ITEM2, #BOX21, #IMAGE24 > .ladi-image > .ladi-image-background, #IMAGE41 > .ladi-image > .ladi-image-background, #POPUP1, #IMAGE37, #IMAGE37 > .ladi-image > .ladi-image-background, #BOX24, #POPUP2, #IMAGE40 > .ladi-image > .ladi-image-background, #BOX25, #GROUP36, #BOX26, #IMAGE38 > .ladi-image > .ladi-image-background, #BOX27, #IMAGE39 > .ladi-image > .ladi-image-background {
+    top: 0px;
+    left: 0px;
+}
+
+#HEADLINE9 > .ladi-headline, #HEADLINE12 > .ladi-headline {
+    font-family: VVZOSGhVGFMSdGY;
+    font-size: 52px;
+    line-height: 1.6;
+    color: rgb(77, 51, 5);
+    text-align: center;
+}
+
+#HEADLINE11 {
+    top: 90.499px;
+    left: 12px;
+}
+
+#HEADLINE10, #HEADLINE11, #HEADLINE13, #HEADLINE14, #HEADLINE119 {
+    width: 222px;
+}
+
+#HEADLINE11 > .ladi-headline, #HEADLINE14 > .ladi-headline {
+    font-family: TESQSSRUdVTEFSLlRURg;
+    font-size: 25px;
+    line-height: 1.6;
+    color: rgb(134, 105, 55);
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#GROUP31 {
+    width: 232px;
+    height: 133.499px;
+    top: 626.4px;
+    left: 193px;
+}
+
+#HEADLINE14 {
+    top: 93.499px;
+    left: 16px;
+}
+#BOX6 {
+    top: 423.899px;
+    left: 0px;
+}
+
+#BOX6 > .ladi-box {
+    background-image: url(https://i.pinimg.com/736x/d0/1b/1a/d01b1a3576608615adf23a86c232054b.jpg);
+    background-size: 121%;
+    background-origin: content-box;
+    background-position: 50% 0%;
+    background-repeat: repeat;
+    background-attachment: scroll;
+}
+
+#BOX7 {
+    width: 450px;
+    height: 277.201px;
+    top: 972.901px;
+    left: 0px;
+}
+
+#BOX7.ladi-animation > .ladi-box {
+    animation-name: flipInX;
+    animation-delay: 1s;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+
+#BOX7 > .ladi-box {
+    background-image: url(https://i.pinimg.com/736x/22/52/91/22529158ec6145baa6e5f724be238c00.jpg);
+    background-size: cover;
+    background-origin: content-box;
+    background-position: -20px 50%;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    box-shadow: rgb(96, 96, 96) 0px 7px 10px -5px;
+    filter: brightness(97%);
+}
+
+#HEADLINE115 {
+    width: 410px;
+    top: 787.899px;
+    left: 16px;
+}
+
+#HEADLINE115 > .ladi-headline {
+    font-family: TESQSSRUdVTEFSLlRURg;
+    font-size: 14px;
+    line-height: 1.6;
+    color: rgb(134, 105, 55);
+    text-align: justify;
+}
+
+#SECTION3 {
+    height: 854.1px;
+}
+#SECTION3 > .ladi-section-background {
+    filter: contrast(108%);
+}
+
+#IMAGE7 {
+    top: -1px;
+    left: 0px;
+}
+#IMAGE7, #IMAGE7 > .ladi-image > .ladi-image-background {
+    width: 450px;
+    height: 855.1px;
+}
+
+#IMAGE7 > .ladi-image > .ladi-image-background {
+    background-image: url(https://w.ladicdn.com/s750x1200/6322a62f2dad980013bb5005/thiep-huyen-copy_0002_thiep-huyenn-copy-2-20250703085254-ucalq.png);
+}
+
+#GROUP7 {
+    width: 224px;
+    height: 67px;
+    top: 59.3px;
+    left: 253px;
+}
+#HEADLINE18, #HEADLINE15 {
+    width: 151px;
+}
+
+#HEADLINE18 > .ladi-headline, #HEADLINE15 > .ladi-headline {
+    font-family: TGyYSTZWpQmsZCdGY;
+    font-size: 14px;
+    line-height: 1.6;
+    color: rgb(77, 51, 5);
+    text-transform: uppercase;
+    text-align: left;
+}
+#HEADLINE19, #HEADLINE16, #HEADLINE71, #HEADLINE74, #HEADLINE77, #HEADLINE80, #HEADLINE83, #HEADLINE86, #HEADLINE89, #HEADLINE92, #HEADLINE95 {
+    top: 23px;
+    left: 0px;
+}
+
+#HEADLINE19, #HEADLINE16 {
+    width: 159px;
+}
+#HEADLINE20, #HEADLINE17 {
+    width: 224px;
+    top: 49px;
+    left: 0px;
+}
+
+#HEADLINE20 > .ladi-headline, #HEADLINE17 > .ladi-headline {
+    font-family: TGyYSSZWdbGFyLnRZg;
+    font-size: 13px;
+    line-height: 1.4;
+    color: rgb(134, 105, 55);
+    text-align: left;
+}
+
+#GROUP8 {
+    width: 224px;
+    height: 85px;
+    top: 59.3px;
+    left: 70px;
+}
+
+#IMAGE8 {
+    top: 215.204px;
+    left: 137.5px;
+}
+
+#IMAGE8, #IMAGE8 > .ladi-image > .ladi-image-background {
+    width: 173px;
+    height: 83.1731px;
+}
+#IMAGE8 > .ladi-image > .ladi-image-background {
+    background-image: url(https://w.ladicdn.com/s500x400/6322a62f2dad980013bb5005/icon-thiep-huyenpsd_0004_vector-smart-object-20250703085842-8ctrp.png);
+}
+
+#HEADLINE21 {
+    top: 341.8px;
+    left: 0px;
+}
+#HEADLINE21 > .ladi-headline, #HEADLINE24 > .ladi-headline {
+    font-family: TGyYSSZWdbGFyLnRZg;
+    font-size: 14px;
+    line-height: 1.6;
+    color: rgb(134, 105, 55);
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#HEADLINE22 {
+    top: 375.3px;
+    left: 29px;
+}
+
+#HEADLINE22, #HEADLINE29, #HEADLINE69, #HEADLINE97 {
+    width: 363px;
+}
+
+#HEADLINE22 > .ladi-headline {
+    font-family: VVZOSGhVGFMSdGY;
+    font-size: 50px;
+    line-height: 1.6;
+    color: rgb(77, 51, 5);
+    text-align: center;
+}
+
+.ladi-image .ladi-image-background {
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: cover;
+    background-attachment: scroll;
+    background-origin: content-box;
+    position: absolute;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+
+#HEADLINE23 {
+    top: 445.8px;
+    left: 1px;
+}
+
+#HEADLINE23 > .ladi-headline, #HEADLINE82 > .ladi-headline {
+    font-family: TESQSTRUJQkMRCUVEY;
+    font-size: 16px;
+    line-height: 1.6;
+    color: rgb(77, 51, 5);
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#HEADLINE24 {
+    top: 505.8px;
+    left: 1px;
+}
+
+#HEADLINE21 > .ladi-headline, #HEADLINE24 > .ladi-headline {
+    font-family: TGyYSSZWdbGFyLnRZg;
+    font-size: 14px;
+    line-height: 1.6;
+    color: rgb(134, 105, 55);
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#HEADLINE25 {
+    top: 531.8px;
+    left: 0px;
+}
+
+#HEADLINE25 > .ladi-headline {
+    font-family: TESQSTRUJQkMRCUVEY;
+    font-size: 20px;
+    line-height: 1.6;
+    color: rgb(77, 51, 5);
+    text-transform: uppercase;
+    text-align: center;
+}
+#GROUP30 {
+    width: 418px;
+    height: 52.42px;
+    top: 654.38px;
+    left: 1px;
+}
+
+a:visited {
+    color: inherit;
+}
+
+a {
+    text-decoration: none;
+}
+
+#GROUP38 {
+    width: 278px;
+    height: 62px;
+    top: 569.3px;
+    left: 93px;
+}
+
+#LINE2 {
+    top: 0px;
+    left: 18px;
+}
+
+#LINE2, #LINE3 {
+    width: 236px;
+}
+
+#LINE2 > .ladi-line, #LINE3 > .ladi-line {
+    width: 100%;
+    padding: 8px 0px;
+}
+
+#LINE2 > .ladi-line > .ladi-line-container, #LINE3 > .ladi-line > .ladi-line-container {
+    border-top: 2px solid rgb(134, 105, 55);
+    border-right: 2px solid rgb(134, 105, 55);
+    border-bottom: 2px solid rgb(134, 105, 55);
+    border-left: 0px !important;
+}
+
+.ladi-line .ladi-line-container {
+    border-bottom: 0 !important;
+    border-right: 0 !important;
+    width: 100%;
+    height: 100%;
+}
+
+#LINE3 {
+    top: 44px;
+    left: 18px;
+}
+
+#HEADLINE26 {
+    top: 13.5px;
+    left: -7px;
+}
+
+#HEADLINE26, #HEADLINE27 {
+    width: 152px;
+}
+
+#HEADLINE26 > .ladi-headline, #HEADLINE27 > .ladi-headline {
+    font-family: TESQSSRUdVTEFSLlRURg;
+    font-size: 22px;
+    line-height: 1.6;
+    color: rgb(77, 51, 5);
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#HEADLINE27 {
+    top: 13.5px;
+    left: 126px;
+}
+
+#LINE4 {
+    height: 27px;
+    top: 17.5px;
+    left: 122px;
+}
+
+#GROUP33 {
+    top: 139.723px;
+    left: 632.36px;
+}
+
+#GROUP33, #IMAGE31, #IMAGE31 > .ladi-image > .ladi-image-background {
+    width: 181.28px;
+    height: 87.1538px;
+}
+
+#IMAGE30 {
+    top: 30.077px;
+    left: 73px;
+}
+
+/* ============ HEART BADGE FOR DAY 30 ============ */
+#HEADLINE47.heart-badge {
+    position: relative;
+    overflow: visible;
+}
+#HEADLINE47.heart-badge .ladi-headline {
+    position: relative;
+    z-index: 2;
+}
+#HEADLINE47.heart-badge::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 40px;
+    height: 34px;
+    transform: translate(-50%, -50%);
+    background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 29.6'><path fill='%23866937' d='M23.6 0c-3.4 0-6.4 2.7-7.6 5.1C14.8 2.7 11.8 0 8.4 0 3.8 0 0 3.8 0 8.4c0 9.1 16 21.2 16 21.2s16-12.1 16-21.2C32 3.8 28.2 0 23.6 0z'/></svg>") no-repeat center / contain;
+    z-index: 1;
+    pointer-events: none;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    animation: heartPulse 1.4s ease-in-out infinite;
+}
+
+#IMAGE30, #IMAGE30 > .ladi-image > .ladi-image-background {
+    width: 38px;
+    height: 38px;
+}
+
+#IMAGE30 > .ladi-image {
+    opacity: 0.83;
+}
+
+#IMAGE30 > .ladi-image > .ladi-image-background {
+    background-image: url(https://w.ladicdn.com/s350x350/6322a62f2dad980013bb5005/f-20250718103005-4fade.png);
+}
+
+#IMAGE31 > .ladi-image > .ladi-image-background {
+    background-image: url(https://w.ladicdn.com/s500x400/6322a62f2dad980013bb5005/icon-thiep-huyenpsd_0004_vector-smart-object-20250718103005-hposg.png);
+}
+
+#GROUP30.ladi-animation > .ladi-group {
+    animation-name: pulse;
+    animation-delay: 0s;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+#IMAGE9 {
+    top: 0px;
+    left: 212.388px;
+}
+
+#IMAGE9, #IMAGE9 > .ladi-image > .ladi-image-background {
+    width: 19.2249px;
+    height: 24.8025px;
+}
+
+#IMAGE9 > .ladi-image > .ladi-image-background {
+    background-image: url(https://w.ladicdn.com/s350x350/6322a62f2dad980013bb5005/icon-thiep-huyenpsd_0003_vector-smart-object-20250703090407-yvbeo.png);
+}
+
+#HEADLINE28 {
+    top: 30.42px;
+    left: 0px;
+}
+
+#HEADLINE28 > .ladi-headline {
+    font-family: TESQSTRUJQkMRCUVEY;
+    font-size: 14px;
+    line-height: 1.6;
+    color: rgb(134, 105, 55);
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#SECTION4 {
+    height: 369.1px;
+}
+
+#BOX8 {
+    width: 450px;
+    height: 369.1px;
+}
+
+#BOX8 > .ladi-box {
+    background-image: url(https://i.pinimg.com/736x/5b/58/ac/5b58ac89ea408d11eb9742bc04e8e1aa.jpg);
+    background-size: cover;
+    background-origin: content-box;
+    background-position: 50% 50%;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    filter: brightness(60%);
+}
+
+#HEADLINE29 {
+    top: 0px;
+    left: 38.5px;
+}
+
+#HEADLINE29.ladi-animation > .ladi-headline, #HEADLINE69.ladi-animation > .ladi-headline {
+    animation-name: pulse;
+    animation-delay: 1s;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+
+#HEADLINE29 > .ladi-headline {
+    font-family: VVZOSGhVGFMSdGY;
+    font-size: 71px;
+    line-height: 1.6;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+#HEADLINE31 {
+    top: 150.95px;
+    left: 249px;
+}
+
+#HEADLINE192,#HEADLINE193,#HEADLINE194,#HEADLINE195,#HEADLINE196,    #HEADLINE31, #HEADLINE32, #HEADLINE33, #HEADLINE34, #HEADLINE35, #HEADLINE36, #HEADLINE37, #HEADLINE38, #HEADLINE39, #HEADLINE40, #HEADLINE41, #HEADLINE42, #HEADLINE43, #HEADLINE44, #HEADLINE45, #HEADLINE47, #HEADLINE55, #HEADLINE56, #HEADLINE57, #HEADLINE58, #HEADLINE59, #HEADLINE60, #HEADLINE61, #HEADLINE62, #HEADLINE63, #HEADLINE64, #HEADLINE65, #HEADLINE66, #HEADLINE67, #HEADLINE68, #HEADLINE46 {
+    width: 29px;
+}
+
+#HEADLINE192 > .ladi-headline,#HEADLINE193 > .ladi-headline,#HEADLINE194 > .ladi-headline,#HEADLINE195 > .ladi-headline,#HEADLINE196 > .ladi-headline ,#HEADLINE31 > .ladi-headline, #HEADLINE32 > .ladi-headline, #HEADLINE33 > .ladi-headline, #HEADLINE34 > .ladi-headline, #HEADLINE35 > .ladi-headline, #HEADLINE36 > .ladi-headline, #HEADLINE37 > .ladi-headline, #HEADLINE38 > .ladi-headline, #HEADLINE39 > .ladi-headline, #HEADLINE40 > .ladi-headline, #HEADLINE41 > .ladi-headline, #HEADLINE42 > .ladi-headline, #HEADLINE43 > .ladi-headline, #HEADLINE44 > .ladi-headline, #HEADLINE45 > .ladi-headline, #HEADLINE47 > .ladi-headline, #HEADLINE55 > .ladi-headline, #HEADLINE56 > .ladi-headline, #HEADLINE57 > .ladi-headline, #HEADLINE58 > .ladi-headline, #HEADLINE59 > .ladi-headline, #HEADLINE60 > .ladi-headline, #HEADLINE61 > .ladi-headline, #HEADLINE62 > .ladi-headline, #HEADLINE63 > .ladi-headline, #HEADLINE64 > .ladi-headline, #HEADLINE65 > .ladi-headline, #HEADLINE66 > .ladi-headline, #HEADLINE67 > .ladi-headline, #HEADLINE68 > .ladi-headline {
+    font-family: TESQSSRUdVTEFSLlRURg;
+    font-size: 13px;
+    line-height: 1.6;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+#HEADLINE192 {
+    top: 150.95px;
+    left: 36.75px;
+}
+#HEADLINE193 {
+    top: 150.95px;
+    left: 90px;
+}
+#HEADLINE194 {
+    top: 150.95px;
+    left: 143px;
+}
+#HEADLINE195 {
+    top: 150.95px;
+    left: 196px;
+}
+#HEADLINE196 {
+    top: 150.95px;
+    left: 249px;
+}
+
+
+#HEADLINE32 {
+    top: 150.95px;
+    left: 301.75px;
+}
+
+#HEADLINE33 {
+    top: 150.95px;
+    left: 354.5px;
+}
+#HEADLINE34 {
+    top: 187.95px;
+    left: 38px;
+}
+#HEADLINE35 {
+    top: 187.95px;
+    left: 90.75px;
+}
+#HEADLINE36 {
+    top: 187.95px;
+    left: 143.5px;
+}
+#HEADLINE37 {
+    top: 187.95px;
+    left: 196.25px;
+}
+#HEADLINE38 {
+    top: 187.95px;
+    left: 249px;
+}
+
+#HEADLINE39 {
+    top: 187.95px;
+    left: 301.75px;
+}
+
+#HEADLINE40 {
+    top: 187.95px;
+    left: 354.5px;
+}
+
+#HEADLINE41 {
+    top: 224.95px;
+    left: 38px;
+}
+#HEADLINE42 {
+    top: 224.95px;
+    left: 90.75px;
+}
+
+#HEADLINE43 {
+    top: 224.95px;
+    left: 143.5px;
+}
+
+#HEADLINE44 {
+    top: 224.95px;
+    left: 196.25px;
+}
+
+#HEADLINE45 {
+    top: 224.95px;
+    left: 249px;
+}
+
+#HEADLINE47 {
+    top: 301.95px;
+    left: 81px;
+}
+
+#HEADLINE48 {
+    top: 110.45px;
+    left: 26px;
+}
+
+#HEADLINE49 {
+    top: 110.45px;
+    left: 78.8333px;
+}
+#HEADLINE48, #HEADLINE49, #HEADLINE50, #HEADLINE51, #HEADLINE52, #HEADLINE53, #HEADLINE54 {
+    width: 52px;
+}
+
+#HEADLINE50 {
+    top: 110.45px;
+    left: 131.667px;
+}
+
+#HEADLINE51 {
+    top: 110.45px;
+    left: 184.5px;
+}
+
+#HEADLINE52 {
+    top: 110.45px;
+    left: 237.333px;
+}
+
+#HEADLINE53 {
+    top: 110.45px;
+    left: 290.167px;
+}
+#HEADLINE54 {
+    top: 110.45px;
+    left: 343px;
+}
+
+#HEADLINE55 {
+    top: 261.95px;
+    left: 354.5px;
+}
+
+
+
+#HEADLINE56 {
+    top: 301.95px;
+    left: 38px;
+}
+
+#HEADLINE57 {
+    top: 301.95px;
+    left: 90.75px;
+}
+
+#HEADLINE58 {
+    top: 301.95px;
+    left: 143.5px;
+}
+
+#HEADLINE59 {
+    top: 301.95px;
+    left: 196.25px;
+}
+
+#HEADLINE60 {
+    top: 301.95px;
+    left: 249px;
+}
+
+#HEADLINE61 {
+    top: 301.95px;
+    left: 301.75px;
+}
+
+#HEADLINE62 {
+    top: 224.95px;
+    left: 354.5px;
+}
+
+#HEADLINE63 {
+    top: 261.95px;
+    left: 38px;
+}
+
+#HEADLINE64 {
+    top: 261.95px;
+    left: 90.75px;
+}
+
+#HEADLINE65 {
+    top: 261.95px;
+    left: 143.5px;
+}
+
+#HEADLINE66 {
+    top: 261.95px;
+    left: 196.25px;
+}
+
+#HEADLINE67 {
+    top: 261.95px;
+    left: 249px;
+}
+
+#HEADLINE68 {
+    top: 261.95px;
+    left: 301.75px;
+}
+
+#IMAGE11 {
+    top: 221.95px;
+    left: 299.562px;
+}
+
+#IMAGE11, #IMAGE11 > .ladi-image > .ladi-image-background {
+    width: 33.9883px;
+    height: 29.0002px;
+}
+#IMAGE11.ladi-animation > .ladi-image {
+    animation-name: bounceIn;
+    animation-delay: 1s;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+#IMAGE11 > .ladi-image {
+    opacity: 0.79;
+}
+
+#IMAGE11 > .ladi-image > .ladi-image-background {
+    background-image: url(https://w.ladicdn.com/s350x350/6322a62f2dad980013bb5005/icon-thiep-huyenpsd_0005_vector-smart-object-20250703090913-cjn_h.png);
+}
+
+#HEADLINE46 {
+    top: 224.95px;
+    left: 301.75px;
+}
+
+#HEADLINE46 > .ladi-headline {
+    font-family: TESQSSRUdVTEFSLlRURg;
+    font-size: 13px;
+    line-height: 1.6;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+#HEADLINE48 > .ladi-headline, #HEADLINE49 > .ladi-headline, #HEADLINE50 > .ladi-headline, #HEADLINE51 > .ladi-headline, #HEADLINE52 > .ladi-headline, #HEADLINE53 > .ladi-headline, #HEADLINE54 > .ladi-headline {
+    font-family: TESQSSRUdVTEFSLlRURg;
+    font-size: 14px;
+    line-height: 1.6;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#SECTION5 {
+    height: 1147.19px;
+}
+
+
+#IMAGE22 {
+    width: 420.606px;
+    height: 391.821px;
+    top: 756.779px;
+    left: 0px;
+}
+
+#IMAGE22 > .ladi-image > .ladi-image-background {
+    width: 420.606px;
+    height: 630.909px;
+}
+
+#IMAGE32 > .ladi-image > .ladi-image-background, #IMAGE6 > .ladi-image > .ladi-image-background, #IMAGE22 > .ladi-image > .ladi-image-background, #IMAGE26 > .ladi-image > .ladi-image-background, #IMAGE25 > .ladi-image > .ladi-image-background {
+    background-image: url(https://w.ladicdn.com/s750x950/6322a62f2dad980013bb5005/icon-thiep-huyenpsd_0000_clear-white-plaster-texture-pattern-copy-14-20250703084107-2wpug.png);
+}
+
+#IMAGE12 {
+    top: 0px;
+    left: 1px;
+}
+
+#IMAGE12, #IMAGE12 > .ladi-image > .ladi-image-background {
+    width: 420.519px;
+    height: 930.188px;
+}
+
+#IMAGE12 > .ladi-image > .ladi-image-background {
+    background-image: url(https://w.ladicdn.com/s750x1250/6322a62f2dad980013bb5005/thiep-huyen-copy_0001_thiep-huyenn-copy-20250703091058-7vwcz.png);
+}
+
+#HEADLINE69 {
+    top: 65.9px;
+    left: 38px;
+}
+
+#HEADLINE69 > .ladi-headline {
+    font-family: VVZOSGhVGFMSdGY;
+    font-size: 71px;
+    line-height: 1.6;
+    color: rgb(77, 51, 5);
+    text-align: center;
+}
+
+#IMAGE13 {
+    top: 181.05px;
+    left: 148.48px;
+}
+
+#IMAGE13, #IMAGE13 > .ladi-image > .ladi-image-background {
+    width: 47.6779px;
+    height: 48.25px;
+}
+
+#IMAGE13 > .ladi-image > .ladi-image-background {
+    background-image: url(https://w.ladicdn.com/s350x350/6322a62f2dad980013bb5005/icon-thiep-huyenpsd_0014_vector-smart-object-20250703091211-e_83m.png);
+}
+
+#GROUP11 {
+    top: 170.9px;
+    left: 221.23px;
+}
+#GROUP11, #GROUP12 {
+    width: 87px;
+    height: 65px;
+}
+
+#HEADLINE70, #HEADLINE71, #HEADLINE72, #HEADLINE73, #HEADLINE74, #HEADLINE75, #HEADLINE76, #HEADLINE78, #HEADLINE79, #HEADLINE85, #HEADLINE88, #HEADLINE91, #HEADLINE94 {
+    width: 87px;
+}
+
+#HEADLINE70 > .ladi-headline, #HEADLINE73 > .ladi-headline, #HEADLINE76 > .ladi-headline, #HEADLINE79 > .ladi-headline {
+    font-family: TESQSTRUJQkMRCUVEY;
+    font-size: 16px;
+    line-height: 1.6;
+    color: rgb(77, 51, 5);
+    text-transform: uppercase;
+    text-align: left;
+}
+
+#GROUP12 {
+    top: 247.233px;
+    left: 221.23px;
+}
+#GROUP13 {
+    top: 323.567px;
+    left: 221.23px;
+}
+
+#GROUP13, #GROUP14, #GROUP18, #GROUP19, #GROUP20 {
+    width: 173px;
+    height: 65px;
+}
+
+#GROUP14 {
+    top: 399.9px;
+    left: 221.23px;
+}
+#IMAGE14 {
+    top: 255.95px;
+    left: 148.48px;
+}
+
+#IMAGE14, #IMAGE14 > .ladi-image > .ladi-image-background {
+    width: 47.6779px;
+    height: 40.9604px;
+}
+#IMAGE14 > .ladi-image > .ladi-image-background {
+    background-image: url(https://w.ladicdn.com/s350x350/6322a62f2dad980013bb5005/icon-thiep-huyenpsd_0013_vector-smart-object-20250703091211-nnyi2.png);
+}
+
+#IMAGE15 {
+    top: 339.382px;
+    left: 149.48px;
+}
+#IMAGE15, #IMAGE15 > .ladi-image > .ladi-image-background {
+    width: 48.2911px;
+    height: 29.1613px;
+}
+
+#IMAGE15 > .ladi-image > .ladi-image-background {
+    background-image: url(https://w.ladicdn.com/s350x350/6322a62f2dad980013bb5005/icon-thiep-huyenpsd_0012_vector-smart-object-20250703091211-5octs.png);
+}
+
+#IMAGE16 {
+    top: 399.9px;
+    left: 145.339px;
+}
+
+
+#IMAGE16, #IMAGE16 > .ladi-image > .ladi-image-background {
+    width: 52.4318px;
+    height: 53.8999px;
+}
+
+#IMAGE16 > .ladi-image > .ladi-image-background {
+    background-image: url("https://w.ladicdn.com/s400x400/6322a62f2dad980013bb5005/icon-thiep-huyenpsd_0011_vector-smart-object-20250703091211-s2xg2.png");
+}
+
+#GROUP16 {
+    width: 321px;
+    height: 65px;
+    top: 479.9px;
+    left: 49.5005px;
+}
+
+#HEADLINE82 {
+    width: 161px;
+    top: 0px;
+    left: 80px;
+}
+
+#HEADLINE83 {
+    width: 321px;
+}
+
+#HEADLINE83 > .ladi-headline, #HEADLINE113 > .ladi-headline {
+    font-family: TESQSSRUdVTEFSLlRURg;
+    font-size: 15px;
+    line-height: 1.6;
+    color: rgb(77, 51, 5);
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#GROUP18 {
+    top: 564.9px;
+    left: 24.771px;
+}
+
+#HEADLINE85, #HEADLINE88, #HEADLINE91, #HEADLINE94 {
+    top: 0px;
+    left: 86px;
+}
+
+#HEADLINE85 > .ladi-headline, #HEADLINE88 > .ladi-headline, #HEADLINE91 > .ladi-headline, #HEADLINE94 > .ladi-headline {
+    font-family: TESQSTRUJQkMRCUVEY;
+    font-size: 16px;
+    line-height: 1.6;
+    color: rgb(77, 51, 5);
+    text-transform: uppercase;
+    text-align: right;
+}
+
+#HEADLINE86 > .ladi-headline, #HEADLINE89 > .ladi-headline, #HEADLINE92 > .ladi-headline, #HEADLINE95 > .ladi-headline {
+    font-family: TESQSSRUdVTEFSLlRURg;
+    font-size: 15px;
+    line-height: 1.6;
+    color: rgb(77, 51, 5);
+    text-transform: uppercase;
+    text-align: right;
+}
+#HEADLINE77, #HEADLINE80, #HEADLINE86, #HEADLINE89, #HEADLINE92, #HEADLINE95 {
+    width: 173px;
+}
+
+#GROUP19 {
+    top: 643.9px;
+    left: 24.771px;
+}
+
+#HEADLINE87, #HEADLINE90, #HEADLINE93 {
+    top: 41px;
+    left: 18px;
+}
+
+#HEADLINE81, #HEADLINE87, #HEADLINE90, #HEADLINE93 {
+    width: 155px;
+}
+
+#GROUP20 {
+    top: 716.9px;
+    left: 24.771px;
+}
+
+#GROUP13, #GROUP14, #GROUP18, #GROUP19, #GROUP20 {
+    width: 173px;
+    height: 65px;
+}
+#GROUP21 {
+    width: 173px;
+    height: 47px;
+    top: 791.9px;
+    left: 24.771px;
+}
+
+#IMAGE17 {
+    top: 575.2px;
+    left: 227.48px;
+}
+
+
+#IMAGE17 > .ladi-image > .ladi-image-background {
+    background-image: url("https://w.ladicdn.com/s350x350/6322a62f2dad980013bb5005/icon-thiep-huyenpsd_0010_vector-smart-object-20250703091211-71l4y.png");
+}
+
+#IMAGE17, #IMAGE17 > .ladi-image > .ladi-image-background {
+    width: 43.8735px;
+    height: 44.4px;
+}
+#HEADLINE71 > .ladi-headline, #HEADLINE74 > .ladi-headline, #HEADLINE77 > .ladi-headline, #HEADLINE80 > .ladi-headline {
+    font-family: TESQSSRUdVTEFSLlRURg;
+    font-size: 15px;
+    line-height: 1.6;
+    color: rgb(77, 51, 5);
+    text-transform: uppercase;
+    text-align: left;
+}
+
+
+#IMAGE18 {
+    top: 647.6px;
+    left: 227.48px;
+}
+
+#IMAGE18, #IMAGE18 > .ladi-image > .ladi-image-background {
+    width: 39.6057px;
+    height: 44.2px;
+}
+
+#IMAGE18 > .ladi-image > .ladi-image-background {
+    background-image: url("https://w.ladicdn.com/s350x350/6322a62f2dad980013bb5005/icon-thiep-huyenpsd_0009_vector-smart-object-20250703091211-cy5bu.png");
+}
+
+
+#IMAGE19 {
+    top: 712.9px;
+    left: 227.48px;
+}
+
+#IMAGE19, #IMAGE19 > .ladi-image > .ladi-image-background {
+    width: 33.4297px;
+    height: 57.9001px;
+}
+
+#IMAGE19 > .ladi-image > .ladi-image-background {
+    background-image: url("https://w.ladicdn.com/s350x400/6322a62f2dad980013bb5005/icon-thiep-huyenpsd_0008_vector-smart-object-20250703091211-8yeul.png");
+}
+
+#GROUP22 {
+    width: 74.8479px;
+    height: 40.9942px;
+    top: 791.9px;
+    left: 224.23px;
+}
+
+#IMAGE20 {
+    top: 22.511px;
+    left: 0px;
+}
+
+#IMAGE20, #IMAGE20 > .ladi-image > .ladi-image-background {
+    width: 74.8479px;
+    height: 18.4832px;
+}
+
+#IMAGE20 > .ladi-image > .ladi-image-background {
+    background-image: url("https://w.ladicdn.com/s400x350/6322a62f2dad980013bb5005/icon-thiep-huyenpsd_0006_vector-smart-object-20250703091210-h4jaa.png");
+}
+
+#IMAGE21 {
+    top: 0px;
+    left: 0.25px;
+}
+
+#IMAGE21, #IMAGE21 > .ladi-image > .ladi-image-background {
+    width: 26.0382px;
+    height: 30.1001px;
+}
+
+#IMAGE21 > .ladi-image > .ladi-image-background {
+    background-image: url("https://w.ladicdn.com/s350x350/6322a62f2dad980013bb5005/icon-thiep-huyenpsd_0007_vector-smart-object-20250703091211-chubf.png");
+}
+
+#LINE5 {
+    height: 282px;
+    top: 176.1px;
+    left: 201.855px;
+}
+
+#LINE6 {
+    height: 264px;
+    top: 569.1px;
+    left: 201.855px;
+}
+
+#HEADLINE97 {
+    top: 900.689px;
+    left: 32.4999px;
+}
+
+
+
+#HEADLINE97 > .ladi-headline {
+    font-family: VVZOSGhVGFMSdGY;
+    font-size: 65px;
+    line-height: 1.6;
+    color: rgb(77, 51, 5);
+    text-align: center;
+}
+
+#HEADLINE113 {
+    width: 191px;
+    top: 988.9px;
+    left: 112.5px;
+}
+#GROUP32 {
+    width: 232.72px;
+    height: 52.7px;
+    top: 1037.25px;
+    left: 87.64px;
+}
+
+
+#BOX9, #BOX10, #BOX11, #BOX23, #BOX12, #BOX13 {
+    width: 52.6999px;
+    height: 52.7px;
+}
+
+#BOX9.ladi-animation > .ladi-box {
+    animation-name: fadeInLeft;
+    animation-delay: 0.5s;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+
+#BOX9 > .ladi-box {
+    background-color: rgb(232, 222, 212);
+}
+
+#BOX9 > .ladi-box, #BOX10 > .ladi-box, #BOX11 > .ladi-box, #BOX23 > .ladi-box, #BOX12 > .ladi-box, #BOX13 > .ladi-box {
+    border-radius: 1000px;
+    box-shadow: rgb(0, 0, 0) 0px 15px 20px -15px;
+}
+
+#BOX10 {
+    top: 0px;
+    left: 36.3634px;
+}
+
+#BOX10.ladi-animation > .ladi-box {
+    animation-name: fadeInLeft;
+    animation-delay: 0.7s;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+
+#BOX10 > .ladi-box {
+    background-color: rgb(213, 199, 190);
+}
+
+#BOX11 {
+    top: 0px;
+    left: 72.762px;
+}
+
+#BOX11 > .ladi-box {
+    background-color: rgb(61, 57, 54);
+}
+
+#BOX23 {
+    top: 0px;
+    left: 106.746px;
+}
+
+#BOX23 > .ladi-box {
+    background-color: rgb(122, 102, 91);
+}
+
+#BOX12 {
+    top: 0px;
+    left: 140.462px;
+}
+
+#BOX12.ladi-animation > .ladi-box {
+    animation-name: fadeInLeft;
+    animation-delay: 1.3s;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+#BOX12 > .ladi-box {
+    background-color: rgb(245, 223, 210);
+}
+
+#BOX13 {
+    top: 0px;
+    left: 180.02px;
+}
+
+#BOX13.ladi-animation > .ladi-box {
+    animation-name: fadeInLeft;
+    animation-delay: 1.5s;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+
+#BOX13 > .ladi-box {
+    background-color: rgb(234, 202, 191);
+}
+
+#SECTION6 {
+    height: 646.5px;
+}
+
+#IMAGE26 {
+    width: 450px;
+    height: 434.09px;
+    top: 246.91px;
+    left: 1.3335px;
+}
+
+
+#IMAGE26 > .ladi-image > .ladi-image-background {
+    width: 450px;
+    height: 631.09px;
+}
+
+#BOX14 {
+    width: 450px;
+    height: 624.59px;
+    top: 1.41px;
+    left: 0px;
+}
+
+#BOX14 > .ladi-box {
+    background-image: url(https://i.pinimg.com/736x/5a/00/c2/5a00c2e87fc252d1822af3be292e6592.jpg);
+    background-size: cover;
+    background-origin: content-box;
+    background-position: -28px 0%;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    box-shadow: rgb(0, 0, 0) 0px 7px 20px -17px;
+    filter: brightness(88%);
+}
+
+#BOX15 {
+    width: 120px;
+    height: 121.518px;
+    top: 1.41px;
+    left: 272px;
+}
+
+#BOX15.ladi-animation > .ladi-box, #BOX16.ladi-animation > .ladi-box, #BOX17.ladi-animation > .ladi-box, #BOX18.ladi-animation > .ladi-box {
+    animation-name: fadeInUpBig;
+    animation-delay: 1s;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+
+#BOX15 > .ladi-box, #BOX16 > .ladi-box, #BOX17 > .ladi-box {
+    box-shadow: rgb(0, 0, 0) 0px 15px 20px -15px;
+    filter: brightness(95%);
+}
+
+
+#BOX15 > .ladi-box {
+    background-image: url(https://i.pinimg.com/736x/f3/31/6f/f3316fccc64009be397ed05791c2e7d5.jpg);
+    background-size: 120%;
+    background-origin: content-box;
+    background-position: 50% 50%;
+    background-repeat: repeat;
+    background-attachment: scroll;
+}
+
+#BOX16 {
+    top: 127.105px;
+    left: 272px;
+}
+
+#BOX16, #BOX17 {
+    width: 120px;
+    height: 180.95px;
+}
+
+#BOX16 > .ladi-box {
+    background-image: url(https://i.pinimg.com/736x/91/59/f9/9159f9556d8feb98416be59a7c8f4470.jpg);
+    background-size: cover;
+    background-origin: content-box;
+    background-position: 50% 0%;
+    background-repeat: repeat;
+    background-attachment: scroll;
+}
+#BOX17 {
+    top: 312.232px;
+    left: 272px;
+}
+
+#BOX17 > .ladi-box {
+    background-image: url(https://i.pinimg.com/736x/c7/12/e4/c712e44a119a882e88ac2ad6a4ef5be6.jpg);
+    background-size: cover;
+    background-origin: content-box;
+    background-position: 50% 0%;
+    background-repeat: repeat;
+    background-attachment: scroll;
+}
+
+#BOX18 {
+    width: 120px;
+    height: 128.641px;
+    top: 497.359px;
+    left: 272px;
+}
+
+#BOX18 > .ladi-box {
+    background-image: url(https://i.pinimg.com/736x/a5/17/22/a51722f76d567ffdd4ff4cae6346a0df.jpg);
+    background-size: cover;
+    background-origin: content-box;
+    background-position: 50% 97%;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    box-shadow: rgba(0, 0, 0, 0.29) 0px 4px 9px -5px;
+    filter: brightness(95%);
+}
+
+#HEADLINE117 {
+    width: 244px;
+    top: 433.41px;
+    left: 15px;
+}
+
+#HEADLINE117 > .ladi-headline {
+    font-family: UZOLUJldGFsaXNhLmZg;
+    font-size: 75.97px;
+    line-height: 1.6;
+    color: rgb(255, 255, 255);
+    letter-spacing: 1px;
+    text-align: left;
+    transform: rotate(-15deg);
+    opacity: 0.9;
+    text-shadow: rgba(0, 0, 0, 0.33) 1px 2px 3px;
+}
+
+#HEADLINE119 {
+    top: 461px;
+    left: 159.5px;
+}
+
+#HEADLINE119 > .ladi-headline {
+    font-family: UZOLUJldGFsaXNhLmZg;
+    font-size: 85px;
+    line-height: 1.6;
+    color: rgb(255, 255, 255);
+    letter-spacing: 1px;
+    text-align: left;
+    transform: rotate(-16deg);
+    opacity: 0.9;
+    text-shadow: rgba(0, 0, 0, 0.39) 1px 2px 3px;
+}
+
+#SECTION8 {
+    height: 830.865px;
+}
+
+#SECTION8 {
+    height: 830.865px;
+}
+
+#IMAGE25, #IMAGE25 > .ladi-image > .ladi-image-background {
+    width: 450px;
+    height: 740px;
+}
+/* --------------------------------------- */
+#GALLERY1 {
+    width: 450px;
+    height: 700px;
+    top: 130.865px;
+    left: 0.4145px;
+}
+
+#GALLERY1 > .ladi-gallery {
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+}
+
+.ladi-gallery {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#GALLERY1 > .ladi-gallery > .ladi-gallery-view {
+    height: calc(100% - 90px);
+}
+
+.ladi-gallery.ladi-gallery-bottom .ladi-gallery-view {
+    top: 0;
+    width: 100%;
+}
+
+.ladi-gallery .ladi-gallery-view {
+    position: absolute;
+    overflow: hidden;
+}
+
+/* Gallery View Items - Hiển thị ảnh */
+.ladi-gallery-view-item {
+    position: absolute !important;
+    width: 100% !important;
+    height: 100% !important;
+    top: 0 !important;
+    left: 0 !important;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    background-size: contain !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    pointer-events: none;
+}
+
+.ladi-gallery-view-item.selected {
+    opacity: 1 !important;
+    z-index: 10 !important;
+    pointer-events: auto;
+}
+
+/* Gallery Control Items - Thumbnails */
+.ladi-gallery-control-item {
+    width: 80px;
+    height: 80px;
+    margin: 0 5px;
+    cursor: pointer;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 2px solid transparent;
+    transition: all 0.3s ease;
+    opacity: 0.6;
+}
+
+.ladi-gallery-control-item:hover {
+    opacity: 0.9;
+    transform: scale(1.05);
+}
+
+.ladi-gallery-control-item.selected {
+    border-color: rgb(255, 255, 255);
+    opacity: 1;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+/* Override CSS cũ - Đảm bảo hiển thị ảnh */
+.ladi-gallery .ladi-gallery-view > .ladi-gallery-view-item {
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    position: absolute !important;
+    width: 100% !important;
+    height: 100% !important;
+    top: 0 !important;
+    left: 0 !important;
+    display: block !important;
+    perspective: none !important;
+}
+
+/* Hiển thị view items đúng cách */
+#GALLERY1 .ladi-gallery-view .ladi-gallery-view-item {
+    visibility: visible !important;
+    display: block !important;
+}
+
+#GALLERY1 .ladi-gallery-view .ladi-gallery-view-item:not(.selected) {
+    opacity: 0 !important;
+    visibility: hidden !important;
+}
+
+#GALLERY1 .ladi-gallery-view .ladi-gallery-view-item.selected {
+    opacity: 1 !important;
+    visibility: visible !important;
+    z-index: 10 !important;
+}
+
+/* ===================================
+   NÚT ĐÓNG POPUP
+   =================================== */
+.popup-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    z-index: 999999;
+    opacity: 0.8;
+    transition: all 0.3s ease;
+}
+
+.popup-close:hover {
+    opacity: 1;
+    transform: rotate(90deg);
+}
+
+/* Icon X cho nút đóng */
+.popup-close::before,
+.popup-close::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 25px;
+    height: 3px;
+    background-color: rgb(134, 105, 55);
+    border-radius: 2px;
+}
+
+.popup-close::before {
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.popup-close::after {
+    transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+/* Hover effect cho icon X */
+.popup-close:hover::before,
+.popup-close:hover::after {
+    background-color: rgb(200, 50, 50);
+}
+
+#GALLERY1 .ladi-gallery .ladi-gallery-view .ladi-gallery-view-arrow, #GALLERY1 .ladi-gallery .ladi-gallery-control .ladi-gallery-control-arrow {
+    background-image: url("data:image/svg+xml;utf8, %3Csvg%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20fill%3D%22rgba(255%2C%20255%2C%20255%2C%201)%22%3E%3Cpath%20fill-rule%3D%22evenodd%22%20clip-rule%3D%22evenodd%22%20d%3D%22M7.00015%200.585938L18.4144%2012.0002L7.00015%2023.4144L5.58594%2022.0002L15.5859%2012.0002L5.58594%202.00015L7.00015%200.585938Z%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E");
+}
+
+.ladi-gallery .ladi-gallery-view .ladi-gallery-view-arrow, .ladi-gallery .ladi-gallery-control .ladi-gallery-control-arrow {
+    width: 33px;
+    height: 33px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url("data:image/svg+xml;utf8, %3Csvg%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20fill%3D%22%23000%22%3E%3Cpath%20fill-rule%3D%22evenodd%22%20clip-rule%3D%22evenodd%22%20d%3D%22M7.00015%200.585938L18.4144%2012.0002L7.00015%2023.4144L5.58594%2022.0002L15.5859%2012.0002L5.58594%202.00015L7.00015%200.585938Z%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E");
+}
+.ladi-gallery .ladi-gallery-view .ladi-gallery-view-arrow-left {
+    left: 5px;
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+}
+
+#GALLERY1 .ladi-gallery .ladi-gallery-view .ladi-gallery-view-arrow, #GALLERY1 .ladi-gallery .ladi-gallery-control .ladi-gallery-control-arrow {
+    background-image: url("data:image/svg+xml;utf8, %3Csvg%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20fill%3D%22rgba(255%2C%20255%2C%20255%2C%201)%22%3E%3Cpath%20fill-rule%3D%22evenodd%22%20clip-rule%3D%22evenodd%22%20d%3D%22M7.00015%200.585938L18.4144%2012.0002L7.00015%2023.4144L5.58594%2022.0002L15.5859%2012.0002L5.58594%202.00015L7.00015%200.585938Z%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E");
+}
+
+#GALLERY1 .ladi-gallery .ladi-gallery-view .ladi-gallery-view-arrow, #GALLERY1 .ladi-gallery .ladi-gallery-control .ladi-gallery-control-arrow {
+    background-image: url("data:image/svg+xml;utf8, %3Csvg%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20fill%3D%22rgba(255%2C%20255%2C%20255%2C%201)%22%3E%3Cpath%20fill-rule%3D%22evenodd%22%20clip-rule%3D%22evenodd%22%20d%3D%22M7.00015%200.585938L18.4144%2012.0002L7.00015%2023.4144L5.58594%2022.0002L15.5859%2012.0002L5.58594%202.00015L7.00015%200.585938Z%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E");
+}
+
+.ladi-gallery .ladi-gallery-view .ladi-gallery-view-arrow, .ladi-gallery .ladi-gallery-control .ladi-gallery-control-arrow {
+    width: 33px;
+    height: 33px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url("data:image/svg+xml;utf8, %3Csvg%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20fill%3D%22%23000%22%3E%3Cpath%20fill-rule%3D%22evenodd%22%20clip-rule%3D%22evenodd%22%20d%3D%22M7.00015%200.585938L18.4144%2012.0002L7.00015%2023.4144L5.58594%2022.0002L15.5859%2012.0002L5.58594%202.00015L7.00015%200.585938Z%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E");
+}
+
+.ladi-gallery .ladi-gallery-view .ladi-gallery-view-arrow-right {
+    right: 5px;
+}
+
+.ladi-gallery .ladi-gallery-view .ladi-gallery-view-arrow {
+    position: absolute;
+    top: calc(50% - (33px) / 2);
+    cursor: pointer;
+    z-index: 90000040;
+}
+
+#GALLERY1 > .ladi-gallery > .ladi-gallery-control {
+    height: 80px;
+}
+
+.ladi-gallery.ladi-gallery-bottom .ladi-gallery-control {
+    width: 100%;
+    bottom: 0;
+}
+
+.ladi-gallery .ladi-gallery-control {
+    position: absolute;
+    overflow: hidden;
+}
+
+.ladi-gallery.ladi-gallery-bottom .ladi-gallery-control .ladi-gallery-control-box {
+    display: -webkit-inline-flex;
+    display: inline-flex;
+    left: 0;
+    transition: left 150ms ease-in-out;
+}
+
+.ladi-gallery .ladi-gallery-control .ladi-gallery-control-box {
+    position: relative;
+}
+
+#GALLERY1 .ladi-gallery .ladi-gallery-view .ladi-gallery-view-arrow, #GALLERY1 .ladi-gallery .ladi-gallery-control .ladi-gallery-control-arrow {
+    background-image: url("data:image/svg+xml;utf8, %3Csvg%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20fill%3D%22rgba(255%2C%20255%2C%20255%2C%201)%22%3E%3Cpath%20fill-rule%3D%22evenodd%22%20clip-rule%3D%22evenodd%22%20d%3D%22M7.00015%200.585938L18.4144%2012.0002L7.00015%2023.4144L5.58594%2022.0002L15.5859%2012.0002L5.58594%202.00015L7.00015%200.585938Z%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E");
+}
+
+.ladi-gallery.ladi-gallery-bottom .ladi-gallery-control .ladi-gallery-control-arrow-left {
+    left: 0px;
+    transform: rotateY(180deg) scale(0.6);
+    -webkit-transform: rotateY(180deg) scale(0.6);
+}
+
+.ladi-gallery.ladi-gallery-bottom .ladi-gallery-control .ladi-gallery-control-arrow {
+    top: calc(50% - (33px) / 2);
+}
+
+.ladi-gallery .ladi-gallery-view .ladi-gallery-view-arrow, .ladi-gallery .ladi-gallery-control .ladi-gallery-control-arrow {
+    width: 33px;
+    height: 33px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url("data:image/svg+xml;utf8, %3Csvg%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20fill%3D%22%23000%22%3E%3Cpath%20fill-rule%3D%22evenodd%22%20clip-rule%3D%22evenodd%22%20d%3D%22M7.00015%200.585938L18.4144%2012.0002L7.00015%2023.4144L5.58594%2022.0002L15.5859%2012.0002L5.58594%202.00015L7.00015%200.585938Z%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E");
+}
+
+.ladi-gallery .ladi-gallery-control .ladi-gallery-control-arrow {
+    position: absolute;
+    cursor: pointer;
+    z-index: 90000040;
+}
+
+.ladi-gallery.ladi-gallery-bottom .ladi-gallery-control .ladi-gallery-control-arrow-right {
+    right: 0px;
+    transform: scale(0.6);
+    -webkit-transform: scale(0.6);
+}
+
+
+.ladi-gallery .ladi-gallery-view > .ladi-gallery-view-item {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: none;
+    transition: transform 500ms ease-in-out;
+    /* -webkit-backface-visibility: hidden; */
+    /* backface-visibility: hidden; */
+    -webkit-perspective: 1000px;
+    perspective: 1000px;
+}
+.ladi-gallery .ladi-gallery-view > .ladi-gallery-view-item {
+    transition: transform 300ms ease-in-out;
+}
+
+
+#GALLERY1 > .ladi-gallery > .ladi-gallery-control > .ladi-gallery-control-box > .ladi-gallery-control-item {
+    width: 80px;
+    height: 80px;
+    margin-right: 5px;
+}
+.ladi-gallery .ladi-gallery-control .ladi-gallery-control-box .ladi-gallery-control-item {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    float: left;
+    position: relative;
+    cursor: pointer;
+    filter: invert(15%);
+}
+/* --------------------------------------- */
+
+#HEADLINE122 {
+    width: 389px;
+    top: 16.16px;
+    left: 16.1665px;
+}
+
+#HEADLINE122 > .ladi-headline {
+    font-family: TESQSSRUdVTEFSLlRURg;
+    font-size: 15px;
+    line-height: 1.5;
+    color: rgb(134, 105, 55);
+    text-align: center;
+}
+
+#SECTION7 {
+    height: 576.033px;
+}
+
+#IMAGE23, #IMAGE23 > .ladi-image > .ladi-image-background {
+    width: 450px;
+    height: 576.931px;
+}
+
+#IMAGE25, #IMAGE23 {
+    top: 0px;
+    left: 1.3335px;
+}
+
+#IMAGE23 > .ladi-image > .ladi-image-background {
+    background-image: url("https://w.ladicdn.com/s750x900/6322a62f2dad980013bb5005/thiep-huyen-copy_0000_thiep-huyenn-20250703093523-xaxc3.png");
+}
+
+#HEADLINE123 {
+    width: 410px;
+    top: 32.045px;
+    left: 19.5px;
+}
+
+#HEADLINE123 > .ladi-headline, #HEADLINE130 > .ladi-headline, #HEADLINE133 > .ladi-headline {
+    font-family: TESQSSRUdVTEFSLlRURg;
+    font-size: 14px;
+    line-height: 1.6;
+    color: rgb(134, 105, 55);
+    text-align: center;
+}
+
+#FORM2 {
+    width: 410px;
+    height: 338px;
+    top: 119.545px;
+    left: 19.6275px;
+}
+
+#FORM2 > .ladi-form {
+    font-family: TESQSSRUdVTEFSLlRURg;
+    font-size: 14px;
+    line-height: 1.6;
+    color: rgb(77, 51, 5);
+}
+
+.ladi-form, .ladi-form .ladi-form-item-container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+#BUTTON2 {
+    top: 298px;
+    left: 0px;
+}
+
+.ladi-form>.ladi-element, .ladi-form>.ladi-element .ladi-form-item-container, .ladi-form>.ladi-element .ladi-form-item-container .ladi-form-item .ladi-form-checkbox-item span[data-checked=true], .ladi-form>.ladi-element .ladi-form-item-container .ladi-form-item .ladi-form-control:not(.ladi-form-control-select) {
+    text-transform: inherit;
+    text-decoration: inherit;
+    text-align: inherit;
+    letter-spacing: inherit;
+    color: inherit;
+    background-size: inherit;
+    background-attachment: inherit;
+    background-origin: inherit;
+}
+
+#BUTTON2 > .ladi-button {
+    border-width: 1px;
+    border-radius: 28px;
+    border-style: solid;
+    border-color: rgb(77, 51, 5);
+}
+
+.ladi-form .ladi-button {
+    cursor: pointer;
+}
+
+.ladi-button {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#FORM2 .ladi-form-item-background, #BUTTON2 > .ladi-button > .ladi-button-background {
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.ladi-button .ladi-button-background {
+    height: 100%;
+    width: 100%;
+    pointer-events: none;
+    transition: inherit;
+}
+
+#BUTTON_TEXT2, #BUTTON_TEXT3 {
+    top: 9px;
+    left: 0px;
+}
+#BUTTON_TEXT2, #HEADLINE111 {
+    width: 410px;
+}
+
+.ladi-form .ladi-button>.ladi-button-headline {
+    color: initial;
+    font-size: initial;
+    font-weight: initial;
+    text-transform: initial;
+    text-decoration: initial;
+    font-style: initial;
+    text-align: initial;
+    letter-spacing: initial;
+    line-height: initial;
+}
+
+.ladi-button>.ladi-button-headline, .ladi-button>.ladi-button-shape {
+    width: 100%!important;
+    height: 100%!important;
+    top: 0!important;
+    left: 0!important;
+    display: table;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+#BUTTON_TEXT2 > .ladi-headline {
+    font-family: TESQSTRUJQkMRCUVEY;
+    font-size: 19px;
+    line-height: 1.6;
+    color: rgb(134, 105, 55);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.ladi-form .ladi-button .ladi-headline {
+    cursor: pointer;
+    user-select: none;
+}
+
+.ladi-button>.ladi-button-headline .ladi-headline {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#FORM_ITEM2 {
+    width: 410px;
+    height: 36px;
+}
+
+
+#FORM2 .ladi-form-item-container, #FORM2 .ladi-form-checkout-box, #FORM2 .ladi-form-checkout-bump-offer-product, #FORM2 .ladi-form-label-container .ladi-form-label-item {
+    border-width: 1px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: rgb(146, 131, 98);
+}
+
+
+#FORM2 .ladi-form-item-background {
+    border-radius: 19px;
+}
+
+.ladi-form>.ladi-element .ladi-form-item-container .ladi-form-item-background {
+    background-size: inherit;
+    background-attachment: inherit;
+    background-origin: inherit;
+}
+
+.ladi-form .ladi-form-item-background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+}
+
+
+#FORM_ITEM2 .ladi-form-item, #FORM_ITEM3 .ladi-form-item, #FORM_ITEM4 .ladi-form-item, #FORM_ITEM5 .ladi-form-item, #FORM_ITEM6 .ladi-form-item {
+    background-image: none !important;
+}
+
+#FORM2 .ladi-form-item {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.ladi-form>.ladi-element .ladi-form-item-container .ladi-form-item {
+    text-transform: inherit;
+    text-decoration: inherit;
+    text-align: inherit;
+    letter-spacing: inherit;
+    color: inherit;
+}
+
+.ladi-form .ladi-form-item {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.ladi-form .ladi-form-item .ladi-form-control {
+    background-color: transparent;
+    min-width: 100%;
+    min-height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    width: 100%;
+    height: 100%;
+    padding: 0 5px;
+    color: inherit;
+    font-size: inherit;
+    border: none;
+}
+
+/* input:not([type="image" i], [type="range" i], [type="checkbox" i], [type="radio" i]) {
+    overflow-clip-margin: 0px !important;
+    overflow: clip !important;
+}
+
+input[type="text" i] {
+    padding-block: 1px;
+    padding-inline: 2px;
+}
+
+input:not([type="file" i], [type="image" i], [type="checkbox" i], [type="radio" i]) {
+
+} */
+
+
+#FORM_ITEM3 {
+    width: 410px;
+    height: 100px;
+    top: 50px;
+    left: 0px;
+}
+
+#FORM_ITEM4 {
+    top: 160px;
+    left: 0px;
+}
+
+#FORM_ITEM5 {
+    top: 205px;
+    left: 0px;
+}
+
+#FORM_ITEM6 {
+    top: 250px;
+    left: 0px;
+}
+.ladi-hidden {
+    display: none;
+}
+
+#FORM2 .ladi-form .ladi-form-item.ladi-form-checkbox .ladi-form-checkbox-item span[data-checked="false"], #FORM2 .ladi-form .ladi-form-item.ladi-form-checkbox .ladi-form-checkbox-item .ladi-editing, #FORM2 .ladi-form .ladi-form-item.ladi-form-checkbox .ladi-form-checkbox-item .ladi-editing::placeholder, #FORM2 .ladi-form .ladi-survey-option .ladi-survey-option-label, #FORM2 .ladi-form-item .ladi-form-control::placeholder, #FORM2 .ladi-form-item select.ladi-form-control[data-selected=""], #FORM2 .ladi-form-checkout-payment-quantity input {
+    color: rgb(77, 51, 5);
+}
+
+#FORM2 .ladi-form-item-container .ladi-form-item .ladi-form-control-select {
+    background-image: url("data:image/svg+xml;utf8, %3Csvg%20width%3D%2232%22%20height%3D%2224%22%20viewBox%3D%220%200%2032%2024%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpolygon%20points%3D%220%2C0%2032%2C0%2016%2C24%22%20style%3D%22fill%3A%20rgb(77%2C%2051%2C%205)%22%3E%3C%2Fpolygon%3E%3C%2Fsvg%3E");
+}
+
+.ladi-form > .ladi-element .ladi-form-item-container .ladi-form-item .ladi-form-control-select {
+    background-image: url("data:image/svg+xml;utf8, %3Csvg%20width%3D%2232%22%20height%3D%2224%22%20viewBox%3D%220%200%2032%2024%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpolygon%20points%3D%220%2C0%2032%2C0%2016%2C24%22%20style%3D%22fill%3A%20rgb(0%2C%200%2C%200)%22%3E%3C%2Fpolygon%3E%3C%2Fsvg%3E");
+}
+
+.ladi-form>.ladi-element .ladi-form-item-container .ladi-form-item .ladi-form-control-select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-size: 9px 6px!important;
+    background-position: right .5rem center;
+    background-repeat: no-repeat;
+    padding-right: 24px;
+    text-transform: inherit;
+    text-align: inherit;
+    letter-spacing: inherit;
+    color: inherit;
+    background-size: inherit;
+    background-attachment: inherit;
+    background-origin: inherit;
+}
+
+.ladi-form>.ladi-element .ladi-form-item-container .ladi-form-item .ladi-form-control-select option {
+    color: initial;
+}
+
+#FORM_ITEM4, #FORM_ITEM5, #FORM_ITEM6 {
+    width: 410px;
+    height: 35px;
+}
+
+#BUTTON3 {
+    top: 470.545px;
+    left: 19.6275px;
+}
+
+#BUTTON2, #BUTTON3 {
+    width: 410px;
+    height: 40px;
+}
+[data-action="true"] {
+    cursor: pointer;
+}
+
+#BUTTON3 > .ladi-button {
+    border-width: 1px;
+    border-radius: 37px;
+    border-color: rgb(146, 131, 98);
+}
+
+#BUTTON3 > .ladi-button > .ladi-button-background, #BOX21 > .ladi-box {
+    background-color: rgb(181, 168, 146);
+}
+
+#BUTTON_TEXT3 {
+    width: 382px;
+}
+
+#BUTTON_TEXT3 > .ladi-headline {
+    font-family: TESQSTRUJQkMRCUVEY;
+    font-size: 19px;
+    line-height: 1.6;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+#SECTION9 {
+    height: 634.5px;
+}
+
+#BOX22 {
+    width: 450px;
+    height: 381.91px;
+    top: 253px;
+    left: 0px;
+}
+
+#BOX22 > .ladi-box {
+    background-image: url(https://i.pinimg.com/736x/e5/e5/d6/e5e5d6a88cdba0ac8378819adec3d5dc.jpg);
+    background-size: 120%;
+    background-origin: content-box;
+    background-position: -55px 31%;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    filter: brightness(78%);
+}
+
+#BOX28 {
+    width: 450px;
+    height: 260.41px;
+    top: 374.5px;
+    left: 0px;
+}
+#BOX28 > .ladi-box {
+    background-image: linear-gradient(rgba(253, 251, 251, 0), rgba(1, 1, 1, 0.2));
+    background-color: initial;
+    background-size: initial;
+    background-origin: initial;
+    background-position: initial;
+    background-repeat: initial;
+    background-attachment: initial;
+}
+#GROUP28 {
+    top: 0.898px;
+    left: 0px;
+}
+
+#GROUP28, #BOX21 {
+    width: 450px;
+    height: 252.102px;
+}
+
+#IMAGE24 {
+    top: 7.452px;
+    left: 8.34325px;
+}
+
+#IMAGE24, #IMAGE24 > .ladi-image > .ladi-image-background {
+    width: 450px;
+    height: 237.198px;
+}
+
+#IMAGE24 > .ladi-image {
+    opacity: 0.28;
+}
+
+#IMAGE24 > .ladi-image > .ladi-image-background {
+    background-image: url(assets/logo.webp);
+}
+#HEADLINE107 {
+    width: 450px;
+    top: 35.5px;
+    /* left: 71.374px; */
+}
+
+#HEADLINE107 > .ladi-headline {
+    font-family: VVZOSGhVGFMSdGY;
+    font-size: 59px;
+    line-height: 1.6;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+#GROUP29 {
+    width: 297.544px;
+    height: 61px;
+    top: 129.5px;
+    left: 84px;
+}
+
+#COUNTDOWN1 {
+    width: 297.544px;
+    height: 53px;
+    top: 8px;
+    left: 0px;
+}
+
+#COUNTDOWN1 > .ladi-countdown {
+    font-family: MUZUViWSVAtSEFTVEVHSSPVEY;
+    font-size: 46px;
+    color: rgb(255, 255, 255);
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.ladi-countdown {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+#COUNTDOWN1 > .ladi-countdown > .ladi-element {
+    width: calc(25% - 2.25px);
+    height: 100%;
+    margin-right: 3px;
+}
+
+.ladi-countdown > .ladi-element {
+    text-decoration: inherit;
+    background-size: inherit;
+    background-attachment: inherit;
+    background-origin: inherit;
+    position: relative;
+    display: inline-block;
+}
+
+.ladi-countdown .ladi-countdown-background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-size: inherit;
+    background-attachment: inherit;
+    background-origin: inherit;
+    display: table;
+    pointer-events: none;
+}
+.ladi-countdown .ladi-countdown-text {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-decoration: inherit;
+    display: table;
+    pointer-events: none;
+}
+
+.ladi-countdown .ladi-countdown-text span {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#HEADLINE108 {
+    top: 0px;
+    left: 53.2715px;
+}
+
+#HEADLINE108 > .ladi-headline, #HEADLINE109 > .ladi-headline, #HEADLINE110 > .ladi-headline {
+    font-family: IzlTbGlkZTAzIEljaWVsIEZvcnQgRmbmRyeSBSaWZIFJlZVsYXIudHRm;
+    font-size: 29.87px;
+    font-weight: bold;
+    line-height: 1.6;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+#HEADLINE109 {
+    top: 0px;
+    left: 128.272px;
+}
+
+#HEADLINE110 {
+    top: 0px;
+    left: 203.272px;
+}
+#HEADLINE108, #HEADLINE109, #HEADLINE110 {
+    width: 41px;
+}
+
+#HEADLINE111 {
+    top: 416.5px;
+    left: 20.4995px;
+}
+
+#HEADLINE111 > .ladi-headline {
+    font-family: TESQSSRUdVTEFSLlRURg;
+    font-size: 14px;
+    line-height: 1.5;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+#HEADLINE112 {
+    width: 215px;
+    top: 505.5px;
+    left: 101.5px;
+}
+
+#HEADLINE112 > .ladi-headline {
+    font-family: VVZOSGhVGFMSdGY;
+    font-size: 48.41px;
+    line-height: 1.6;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+#GROUP40 {
+    width: 149.25px;
+    height: 39.25px;
+    top: auto;
+    left: auto;
+    right: 10px;
+    bottom: 15px;
+    position: fixed;
+    z-index: 90000050;
+    margin-right: calc(50% - 210px);
+}
+
+#BOX29 {
+    width: 134px;
+    height: 32.5px;
+    top: 3.450px;
+    left: 0px;
+}
+
+#BOX29 > .ladi-box {
+    border-radius: 100px;
+    background-color: rgb(135, 118, 87);
+}
+
+#HEADLINE136 {
+    width: 94px;
+    top: 9.625px;
+    left: 10px;
+}
+
+#HEADLINE136 > .ladi-headline {
+    font-family: RUJHYXJhbWuZCNZWRpdWudHRm;
+    font-size: 14.41px;
+    line-height: 1.5;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    text-align: center;
+}
+
+#IMAGE41 {
+    top: 0px;
+    left: 110px;
+}
+
+#IMAGE41, #IMAGE41 > .ladi-image > .ladi-image-background {
+    width: 39.25px;
+    height: 39.25px;
+}
+#IMAGE41 > .ladi-image > .ladi-image-background {
+    background-image: url("https://w.ladicdn.com/6322a62f2dad980013bb5005/gif-nhac-be-nau-20250718143617-k_wa3.gif");
+}
+#SECTION_POPUP {
+    height: 0px;
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100vw !important;
+    height: 100vh !important;
+    z-index: 99999 !important;
+    pointer-events: none;
+}
+
+#SECTION_POPUP .ladi-container {
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100vw !important;
+    height: 100vh !important;
+    transform: none !important;
+    max-width: none !important;
+    z-index: 999999 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+#SECTION_POPUP .ladi-container > .ladi-element {
+    position: fixed !important;
+    display: none;
+    pointer-events: auto;
+    z-index: 999999 !important;
+    transform: none !important;
+}
+
+/* Fix BUTTON3 - Luôn visible */
+#BUTTON3 {
+    visibility: visible !important;
+    opacity: 1 !important;
+    pointer-events: auto !important;
+    cursor: pointer !important;
+}
+
+#BUTTON3:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+#POPUP1, #POPUP2 {
+    position: fixed !important;
+    top: 50% !important;
+    left: 50% !important;
+    right: auto !important;
+    bottom: auto !important;
+    margin: 0 !important;
+    z-index: 999999 !important;
+}
+
+/* Responsive scaling - tự động scale theo màn hình */
+#POPUP1 {
+    width: 450px;
+    transform: translate(-50%, -50%) scale(1) !important;
+}
+
+#POPUP2 {
+    width: 450px;
+    transform: translate(-50%, -50%) scale(1) !important;
+}
+
+/* Scale cho mobile và tablet */
+@media (max-width: 480px) {
+    #POPUP1, #POPUP2 {
+        transform: translate(-50%, -50%) scale(0.85) !important;
+    }
+}
+
+@media (max-width: 400px) {
+    #POPUP1, #POPUP2 {
+        transform: translate(-50%, -50%) scale(0.75) !important;
+    }
+}
+
+/* Scale theo chiều cao */
+@media (max-height: 700px) {
+    #POPUP2 {
+        transform: translate(-50%, -50%) scale(0.9) !important;
+    }
+}
+
+@media (max-height: 600px) {
+    #POPUP2 {
+        transform: translate(-50%, -50%) scale(0.8) !important;
+    }
+}
+
+@media (max-height: 500px) {
+    #POPUP2 {
+        transform: translate(-50%, -50%) scale(0.65) !important;
+    }
+}
+#SECTION_POPUP .popup-close {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    z-index: 9000000080;
+    cursor: pointer;
+    width: 16px;
+    height: 16px;
+    margin: 10px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url("data:image/svg+xml;utf8, %3Csvg%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20fill%3D%22%23000%22%3E%3Cpath%20fill-rule%3D%22evenodd%22%20clip-rule%3D%22evenodd%22%20d%3D%22M23.4144%202.00015L2.00015%2023.4144L0.585938%2022.0002L22.0002%200.585938L23.4144%202.00015Z%22%3E%3C%2Fpath%3E%3Cpath%20fill-rule%3D%22evenodd%22%20clip-rule%3D%22evenodd%22%20d%3D%22M2.00015%200.585938L23.4144%2022.0002L22.0002%2023.4144L0.585938%202.00015L2.00015%200.585938Z%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E");
+}
+.ladi-popup {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.ladi-popup > *:not(.ladi-popup-background) {
+    position: absolute;
+    z-index: 90000071;
+    visibility: visible !important;
+}
+
+/* Fix popup không bị scale bởi wrapper */
+#POPUP1, #POPUP2 {
+    transform: translate(-50%, -50%) scale(1) !important;
+}
+
+#POPUP1 .ladi-popup, #POPUP2 .ladi-popup {
+    position: relative;
+    border-radius: 10px;
+    overflow: visible;
+    box-shadow: 0 10px 50px rgba(0, 0, 0, 0.5);
+    background: white;
+    z-index: 1000000 !important;
+    width: 100%;
+    height: 100%;
+}
+
+/* Fix tất cả elements trong popup không bị scale và visible */
+#POPUP1 *, #POPUP2 * {
+    transform: none !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+}
+
+#POPUP1 .ladi-image, #POPUP2 .ladi-image {
+    transform: perspective(1000px) rotateX(180deg) !important;
+}
+
+/* Đảm bảo các elements trong popup hiện thị đúg */
+#POPUP1 #BOX24,
+#POPUP1 #IMAGE37,
+#POPUP1 #PARAGRAPH1,
+#POPUP1 #PARAGRAPH2,
+#POPUP2 #BOX25,
+#POPUP2 #IMAGE40,
+#POPUP2 #GROUP35,
+#POPUP2 #GROUP36,
+#POPUP2 #BOX26,
+#POPUP2 #IMAGE38,
+#POPUP2 #HEADLINE130,
+#POPUP2 #HEADLINE131,
+#POPUP2 #HEADLINE132 {
+    visibility: visible !important;
+    opacity: 1 !important;
+    z-index: auto !important;
+}
+
+/* Override animation hidden cho tất cả elements trong popup */
+#POPUP1 .ladi-animation-hidden,
+#POPUP2 .ladi-animation-hidden {
+    visibility: visible !important;
+    opacity: 1 !important;
+}
+
+/* Popup close button */
+#SECTION_POPUP .popup-close {
+    z-index: 9000000090 !important;
+    visibility: visible !important;
+}
+.ladi-popup .ladi-popup-background {
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100vw !important;
+    height: 100vh !important;
+    background-color: transparent !important;
+    pointer-events: auto;
+    z-index: 999998 !important;
+    transform: none !important;
+}
+
+#POPUP1 > .ladi-popup > .ladi-popup-background, 
+#POPUP2 > .ladi-popup > .ladi-popup-background {
+    background-color: transparent !important;
+}
+#IMAGE37, #IMAGE40 {
+    width: 450px;
+    height: 441px;
+}
+
+#IMAGE37 > .ladi-image, #IMAGE40 > .ladi-image {
+    transform: perspective(1000px) rotateX(180deg);
+}
+
+#IMAGE37 > .ladi-image > .ladi-image-background, #IMAGE40 > .ladi-image > .ladi-image-background {
+    width: 450px;
+    height: 501.668px;
+    background-image: url("https://w.ladicdn.com/s750x850/6322a62f2dad980013bb5005/thiep-huyen-copy_0000_thiep-huyenn-20250703093523-xaxc3.png");
+}
+
+#BOX24, #BOX25 {
+    width: 450px;
+    height: 287px;
+}
+#BOX24 > .ladi-box {
+    background-image: url(https://i.pinimg.com/736x/63/86/48/6386485655b6fb728d7e696acbc8b898.jpg);
+    background-size: cover;
+    background-origin: content-box;
+    background-position: 50% 30%;
+    background-repeat: repeat;
+    background-attachment: scroll;
+}
+#PARAGRAPH1 {
+    top: 310.5px;
+    left: 15px;
+}
+#HEADLINE3, #PARAGRAPH1 {
+    width: 390px;
+}
+#PARAGRAPH1 > .ladi-paragraph {
+    font-family: TESQSSRUdVTEFSLlRURg;
+    font-size: 15px;
+    line-height: 1.6;
+    color: rgb(77, 51, 5);
+    text-align: center;
+}
+
+.ladi-paragraph {
+    width: 100%;
+    display: inline-block;
+    word-break: break-word;
+}
+
+#PARAGRAPH2 {
+    width: 450px;
+    top: 363.5px;
+    /* left: 121.5px; */
+}
+
+#PARAGRAPH2 > .ladi-paragraph {
+    font-family: VVZOSGhVGFMSdGY;
+    font-size: 33.23px;
+    line-height: 1.6;
+    color: rgb(77, 51, 5);
+    text-align: center;
+}
+
+/* POPUP dimensions - cố định height */
+#POPUP1 {
+    height: 441px !important;
+}
+
+#POPUP2 {
+    height: 585px !important;
+}
+
+/* Fix POPUP content layout - KHÔNG SCROLL - Áp dụng cho cả POPUP1 và POPUP2 */
+#POPUP1 .ladi-popup {
+    position: relative;
+    height: 441px;
+    overflow: visible;
+}
+
+#POPUP2 .ladi-popup {
+    position: relative;
+    height: 585px;
+    overflow: visible;
+}
+
+/* Các elements trong popup giữ nguyên position absolute */
+#POPUP1 #BOX24,
+#POPUP1 #IMAGE37,
+#POPUP1 #PARAGRAPH1,
+#POPUP1 #PARAGRAPH2,
+#POPUP2 #BOX25,
+#POPUP2 #IMAGE40,
+#POPUP2 #GROUP35 {
+    position: absolute;
+}
+
+/* Force hiện thị groups và nội dung bên trong */
+#POPUP1 #IMAGE37,
+#POPUP1 #BOX24,
+#POPUP1 #PARAGRAPH1,
+#POPUP1 #PARAGRAPH2,
+#POPUP2 #GROUP35,
+#POPUP2 #GROUP36,
+#POPUP2 #GROUP36 * {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+}
+
+#POPUP1 .ladi-group,
+#POPUP2 .ladi-group {
+    visibility: visible !important;
+    opacity: 1 !important;
+}
+
+#IMAGE40 {
+    top: 144px;
+    left: 0.25245px;
+}
+
+#BOX25 > .ladi-box {
+    background-image: url(https://i.pinimg.com/736x/dc/9f/f7/dc9ff730a9865fc778eb335b28cb8554.jpg);
+    background-size: cover;
+    background-origin: content-box;
+    background-position: 50% 0%;
+    background-repeat: repeat;
+    background-attachment: scroll;
+}
+
+#GROUP35 {
+    width: 356px;
+    height: 241px;
+    top: 313px;
+    left: 31.9998px;
+}
+
+#GROUP36, #BOX26, #GROUP37, #BOX27 {
+    width: 170px;
+    height: 241px;
+}
+
+.ladi-animation-hidden {
+    visibility: hidden !important;
+    opacity: 0 !important;
+}
+
+#BOX26 > .ladi-box, #BOX27 > .ladi-box {
+    border-width: 2px;
+    border-radius: 14px;
+    border-style: solid;
+    border-color: rgb(77, 51, 5);
+    background-color: rgba(77, 104, 65, 0);
+}
+
+#IMAGE38, #IMAGE39 {
+    top: 15.172px;
+    left: 18.646px;
+}
+#IMAGE38 > .ladi-image > .ladi-image-background {
+    background-image: url(assets/bank2.jpg);
+}
+
+#IMAGE38, #IMAGE38 > .ladi-image > .ladi-image-background, #IMAGE39, #IMAGE39 > .ladi-image > .ladi-image-background {
+    width: 132.708px;
+    height: 131.655px;
+}
+#HEADLINE130, #HEADLINE133 {
+    width: 169px;
+    top: 155.116px;
+    left: 0.0015px;
+}
+
+#HEADLINE131 {
+    width: 135px;
+    top: 178.616px;
+    left: 17.0015px;
+}
+
+#HEADLINE131 > .ladi-headline, #HEADLINE132 > .ladi-headline, #HEADLINE134 > .ladi-headline, #HEADLINE135 > .ladi-headline {
+    font-family: TESQSSRUdVTEFSLlRURg;
+    font-size: 14px;
+    line-height: 1.6;
+    color: rgb(131, 95, 45);
+    text-align: center;
+}
+
+#HEADLINE132 {
+    width: 118px;
+    top: 202.116px;
+    left: 25.5015px;
+}
+
+#GROUP37 {
+    top: 0px;
+    left: 186px;
+}
+
+#IMAGE39 > .ladi-image > .ladi-image-background {
+    background-image: url(assets/bank2.jpg);
+}
+
+#HEADLINE134 {
+    width: 125px;
+    top: 178.616px;
+    left: 22.0015px;
+}
+
+#HEADLINE135 {
+    width: 131px;
+    top: 202.116px;
+    left: 19.0015px;
+}
+.backdrop-popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 90000060;
+}
+
+.backdrop-dropbox {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 90000040;
+}
+.lightbox-screen {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    z-index: 9000000080;
+    background: rgba(0,0,0,.5);
+}
+#BOX66 {
+    top: 88px;
+    left: 127px;
+    width: 205px;
+    height: 141px;
+    position: absolute;
+}
+
+#BOX66 > .ladi-box {
+    background-image: url(assets/logo.webp);
+    background-size: contain;      /* hoặc cover nếu bạn muốn hình đầy khung */
+    background-position: center center;
+    background-repeat: no-repeat;
+
+    /* Sửa lỗi căn chưa đúng */
+    background-origin: border-box;
+}
+

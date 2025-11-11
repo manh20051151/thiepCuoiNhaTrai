@@ -1,0 +1,202 @@
+/* ===================================
+   ANIMATION KEYFRAMES
+   =================================== */
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-40px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-40px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes fadeInRight {
+    from {
+        opacity: 0;
+        transform: translateX(40px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes zoomIn {
+    from {
+        opacity: 0;
+        transform: scale(0.7);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideInUp {
+    from {
+        opacity: 0;
+        transform: translateY(60px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes rotateIn {
+    from {
+        opacity: 0;
+        transform: rotate(-15deg) scale(0.85);
+    }
+    to {
+        opacity: 1;
+        transform: rotate(0) scale(1);
+    }
+}
+
+@keyframes bounceIn {
+    0% {
+        opacity: 0;
+        transform: scale(0.3);
+    }
+    50% {
+        opacity: 1;
+        transform: scale(1.08);
+    }
+    70% {
+        transform: scale(0.95);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+/* Nhịp tim cho ngày 30 (trái tim) */
+@keyframes heartPulse {
+    0%, 100% { transform: translate(-50%, -50%) scale(1); filter: drop-shadow(0 0 0 rgba(134,105,55,0)); }
+    50%      { transform: translate(-50%, -50%) scale(1.18); filter: drop-shadow(0 6px 12px rgba(134,105,55,0.3)); }
+}
+
+@keyframes flipInX {
+    from {
+        opacity: 0;
+        transform: perspective(400px) rotateX(90deg);
+    }
+    to {
+        opacity: 1;
+        transform: perspective(400px) rotateX(0deg);
+    }
+}
+
+@keyframes pulse {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+}
+
+@keyframes fadeInUpBig {
+    from {
+        opacity: 0;
+        transform: translateY(100px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Nhấn mạnh nút Chỉ đường (IMAGE9 + HEADLINE28) – mạnh hơn */
+@keyframes pulseStrong {
+    0%, 100% {
+        transform: scale(1);
+        filter: drop-shadow(0 0 0 rgba(134, 105, 55, 0));
+    }
+    45% {
+        transform: scale(1.16);
+        filter: drop-shadow(0 6px 14px rgba(134, 105, 55, 0.35));
+    }
+    55% {
+        transform: scale(1.2);
+        filter: drop-shadow(0 10px 20px rgba(134, 105, 55, 0.4));
+    }
+}
+
+#IMAGE9 .ladi-image {
+    transform-origin: center;
+    will-change: transform, filter;
+    animation: pulseStrong 1.2s cubic-bezier(.175,.885,.32,1.275) .1s infinite;
+}
+#HEADLINE28 .ladi-headline {
+    display: inline-block;
+    transform-origin: center;
+    will-change: transform, filter;
+    animation: pulseStrong 1.2s cubic-bezier(.175,.885,.32,1.275) .1s infinite;
+}
+/* Hover nhanh hơn một chút */
+#GROUP30:hover #IMAGE9 .ladi-image,
+#GROUP30:hover #HEADLINE28 .ladi-headline {
+    animation-duration: 0.85s;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    #IMAGE9 .ladi-image,
+    #HEADLINE28 .ladi-headline {
+        animation: none !important;
+    }
+}
+
+/* ===================================
+   ANIMATION CLASSES
+   =================================== */
+
+.ladi-animation-hidden {
+    visibility: hidden !important;
+    opacity: 0 !important;
+}
+
+.ladi-animation-active {
+    visibility: visible !important;
+    opacity: 1 !important;
+}
+
+.animated {
+    animation-timing-function: ease-out;
+}
