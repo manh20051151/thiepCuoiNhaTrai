@@ -185,9 +185,9 @@ function initGallery() {
     const imageFiles = [
         'https://i.pinimg.com/736x/bf/90/f3/bf90f368a0b7fbd22459abd858f07f3a.jpg', 
         'https://i.pinimg.com/736x/5f/73/90/5f7390302602feaec0d88386fbb2bbb3.jpg',
-         'https://i.pinimg.com/736x/f8/50/8d/f8508d6c6e7aa437d617757422c2d582.jpg',
+         'https://i.pinimg.com/736x/67/e6/3d/67e63d54b85f601ffe528eab191daba6.jpg',
         'https://i.pinimg.com/736x/df/3a/2b/df3a2bc5dfa13573a7afbaed8d5646b2.jpg', 
-        'https://i.pinimg.com/736x/cb/9d/57/cb9d57d992f464ad3a3b9fe5b7797bdb.jpg'
+        'https://i.pinimg.com/736x/ae/f5/84/aef58436215e6e7ceae21add9edbe34a.jpg'
     ];
     
     // Set background images cho view items (slide chính)

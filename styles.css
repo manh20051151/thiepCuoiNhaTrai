@@ -189,7 +189,7 @@ a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, bo
 
 
 #BOX1 > .ladi-box {
-    background-image: url(https://i.pinimg.com/1200x/7c/75/08/7c75082137b2a6cc1e9985121d330423.jpg);
+    background-image: url(https://i.pinimg.com/736x/f4/41/08/f44108a846c709fd86e74bc589181e7c.jpg);
     background-size: cover;
     background-origin: content-box;
     background-position: 50% 50%;
@@ -516,10 +516,10 @@ linear 0s;
 }
 
 #BOX7 > .ladi-box {
-    background-image: url(https://i.pinimg.com/736x/22/52/91/22529158ec6145baa6e5f724be238c00.jpg);
+    background-image: url(https://i.pinimg.com/736x/59/41/81/5941815ecb04ffde5949a9c7bea63eaa.jpg);
     background-size: cover;
     background-origin: content-box;
-    background-position: -20px 50%;
+    background-position: 0px 50%;
     background-repeat: repeat;
     background-attachment: scroll;
     box-shadow: rgb(96, 96, 96) 0px 7px 10px -5px;
@@ -1650,10 +1650,10 @@ a {
 }
 
 #BOX14 > .ladi-box {
-    background-image: url(https://i.pinimg.com/736x/5a/00/c2/5a00c2e87fc252d1822af3be292e6592.jpg);
+    background-image: url(https://i.pinimg.com/736x/f3/31/6f/f3316fccc64009be397ed05791c2e7d5.jpg);
     background-size: cover;
     background-origin: content-box;
-    background-position: -28px 0%;
+    background-position: -103px 0%;
     background-repeat: repeat;
     background-attachment: scroll;
     box-shadow: rgb(0, 0, 0) 0px 7px 20px -17px;
@@ -1681,7 +1681,7 @@ a {
 
 
 #BOX15 > .ladi-box {
-    background-image: url(https://i.pinimg.com/736x/f3/31/6f/f3316fccc64009be397ed05791c2e7d5.jpg);
+    background-image: url(https://i.pinimg.com/736x/91/59/f9/9159f9556d8feb98416be59a7c8f4470.jpg);
     background-size: 120%;
     background-origin: content-box;
     background-position: 50% 50%;
@@ -1700,10 +1700,10 @@ a {
 }
 
 #BOX16 > .ladi-box {
-    background-image: url(https://i.pinimg.com/736x/91/59/f9/9159f9556d8feb98416be59a7c8f4470.jpg);
-    background-size: cover;
+    background-image: url(https://i.pinimg.com/736x/5a/00/c2/5a00c2e87fc252d1822af3be292e6592.jpg);
+    background-size: 120%;
     background-origin: content-box;
-    background-position: 50% 0%;
+    background-position: -2% 0%;
     background-repeat: repeat;
     background-attachment: scroll;
 }
